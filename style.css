@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: rgb(37, 43, 56);
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}
+
+h1, h2 {
+	font-family: 'Staatliches', cursive;
+	font-weight: 300;
+	text-align: center;
+	color: rgb(223, 223, 223);
+}
+
+.main-title {
+	padding: 0;
+}
+
+.data-container {
+	border: 1px solid black;
+	border-radius: 2px;
+	box-shadow: 1px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.title .covid-image {
+	padding-left: 80px;
+	margin-bottom: 2px;
+}
+
+.title .covid-image .second-img {
+	padding-left: 840px;
+}
+
+.country-select {
+    text-align: center;
+}
+
+.country-select h3 {
+    font-family: 'Staatliches', cursive;
+}
+
+.country-select #search {
+    margin-top: 20px;
+    border-radius: 4px;
+	padding-left: 4px;
+	background: rgb(223, 223, 223);
+}
+
+.country-select #submit {
+	padding-right: 4px;
+	padding-left: 2px;
+	border-radius: 4px;
+	background: rgb(223, 223, 223);
+}
+
+.country-title {
+	font-family: 'Staatliches', cursive;
+	color: rgb(223, 223, 223);
+}
+
+
+div {
+	padding: 20px;
+}
+
+h4 {
+	font-size: 85%;
+ 	color: rgb(223, 223, 223);
+ 	font-family: 'Staatliches', cursive;
+ 	font-weight: 300;
+ 	text-align: center;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 758px){
+    .stats-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 10fr;
+    }
+}
+
+.stats-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 100%;
+}
+
+.cntry {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
+
+.pop {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
+
+.cses {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
+
+.dths {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
+
+.dths h1 {
+	color: red;
+}
+
+.crtcl {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
+
+.crtcl h1 {
+	color: red;
+}
+
+.today-c {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
+
+.today-d {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
+
+.today-d h1 {
+	color: red;
+}
+
+.tests {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
+
+.cpp {
+	
+	border-radius: 8px;
+	padding-bottom: 80px;
+}
