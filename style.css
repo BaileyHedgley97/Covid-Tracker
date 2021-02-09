@@ -26,8 +26,6 @@ h1, h2 {
 }
 
 .data-container {
-	border: 1px solid black;
-	border-radius: 2px;
 	box-shadow: 1px;
 	margin-left: 40px;
 	margin-right: 40px;
